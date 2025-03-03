@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>forma</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+<body>
+    <form>
+        <div class="main">
+            <p>Форма</p>
+            <input type="text" placeholder="ФИО" class="text">
+            <p>Пол</p>
+            
+            <div class="sex">
+                <span><input type="radio" name="sex">Муж.</span>
+                <span><input type="radio" name="sex">Жен.</span>
+            </div>
+            
+            <input type="password" placeholder="Пароль" class="pass">
+            <select title="" name="Страна">
+                <option value disabled selected class="def">Страна</option>
+                <option value="">Россия</option>
+                <option value="">United Kingdom</option>
+            </select>
+        </div>
+        <div class="main">
+            <p>Выберите:</p>
+            <form>
+                <span><input type="checkbox" class="check"> Мороженное</span>
+                <span><input type="checkbox" class="check"> Мясо</span>
+                <span><input type="checkbox" class="check"> Салат</span>
+            </form>
+            <textarea name="" id="" placeholder="Что вы любите, напишите..."></textarea>
+            <div class="btn">
+                <input type="submit" value="Отправить" class="send">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
